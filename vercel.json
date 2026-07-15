@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://brandshippingpartners.lovable.app/$1" }
+  ]
+}
