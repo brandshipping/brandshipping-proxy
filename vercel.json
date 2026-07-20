@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://brandshippingpartners.lovable.app/$1" }
-  ]
+    { "source": "/(.*)", "destination": "/api/proxy?path=$1" }
+  ],
+  "github": { "enabled": true }
 }
