@@ -2,5 +2,9 @@
   "name": "brandshipping-proxy",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "build": "echo ok" }
+  "description": "Proxy Vercel pour Brandshipping Partners OS",
+  "scripts": {
+    "build": "echo 'Proxy ready'"
+  },
+  "license": "UNLICENSED"
 }
