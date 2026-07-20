@@ -1,6 +1,11 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/proxy?path=$1" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/proxy?path=$1"
+    }
   ],
-  "github": { "enabled": true }
+  "github": {
+    "enabled": true
+  }
 }
